@@ -1,4 +1,4 @@
-class Busca < SitePrism::Page
+class Busca
   include Capybara::DSL
 
   def fazer_busca(produto)
