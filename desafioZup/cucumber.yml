@@ -1,5 +1,6 @@
----
+#profile_default
+default: BROWSER=cc --no-source --color --format pretty -x -f json_pretty --out=output/reports/report.json
 
-default: -p pretty -p html
-pretty: --format pretty
-html: --format html --out=reports/relatorio.html
+headless: chrome_headless=true -p progress -p json
+progress: --no-source --color --format pretty
+json: --format json --out=output/reports/report.json

@@ -1,0 +1,1314 @@
+[
+  {
+    "uri": "features/specs/fluxo_de_compras.feature",
+    "id": "fluxo-de-compras",
+    "keyword": "Funcionalidade",
+    "name": "Fluxo de compras",
+    "description": "Validar a busca, adição e remoção de itens da cesta de compras",
+    "line": 3,
+    "tags": [
+      {
+        "name": "@geral",
+        "line": 2
+      }
+    ],
+    "elements": [
+      {
+        "keyword": "Contexto",
+        "name": "",
+        "description": "",
+        "line": 6,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.32.2/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 73100
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.32.2/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23500
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6579485000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que Julia esteja no site da Americanas",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4780050300
+            }
+          }
+        ]
+      },
+      {
+        "id": "fluxo-de-compras;buscar-produtos;;2",
+        "keyword": "Esquema do Cenario",
+        "name": "Buscar produtos",
+        "description": "",
+        "line": 16,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@geral",
+            "line": 2
+          },
+          {
+            "name": "@01",
+            "line": 9
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "ela fizer uma busca por \"kitkat coelho\"",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5219552300
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "o resultado dessa busca deve ser relacionado com o \"kitkat coelho\" buscado",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2132763200
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 469902700
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.32.2/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46500
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Contexto",
+        "name": "",
+        "description": "",
+        "line": 6,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.32.2/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.32.2/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49200
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6594780700
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que Julia esteja no site da Americanas",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6226765800
+            }
+          }
+        ]
+      },
+      {
+        "id": "fluxo-de-compras;buscar-produtos;;3",
+        "keyword": "Esquema do Cenario",
+        "name": "Buscar produtos",
+        "description": "",
+        "line": 17,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@geral",
+            "line": 2
+          },
+          {
+            "name": "@01",
+            "line": 9
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "ela fizer uma busca por \"arroz camil\"",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5726823200
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "o resultado dessa busca deve ser relacionado com o \"arroz camil\" buscado",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2019795600
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 934224400
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.32.2/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Contexto",
+        "name": "",
+        "description": "",
+        "line": 6,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.32.2/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17700
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.32.2/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26600
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6683618300
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que Julia esteja no site da Americanas",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5871126500
+            }
+          }
+        ]
+      },
+      {
+        "id": "fluxo-de-compras;buscar-produtos;;4",
+        "keyword": "Esquema do Cenario",
+        "name": "Buscar produtos",
+        "description": "",
+        "line": 18,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@geral",
+            "line": 2
+          },
+          {
+            "name": "@01",
+            "line": 9
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "ela fizer uma busca por \"pringles creme e cebola\"",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5434152000
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "o resultado dessa busca deve ser relacionado com o \"pringles creme e cebola\" buscado",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2562523900
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 694073800
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.32.2/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27400
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Contexto",
+        "name": "",
+        "description": "",
+        "line": 6,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.32.2/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17900
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.32.2/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18700
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6742210800
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que Julia esteja no site da Americanas",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14258157600
+            }
+          }
+        ]
+      },
+      {
+        "id": "fluxo-de-compras;buscar-produto-que-não-consta-em-estoque;;2",
+        "keyword": "Esquema do Cenario",
+        "name": "Buscar produto que não consta em estoque",
+        "description": "",
+        "line": 27,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@geral",
+            "line": 2
+          },
+          {
+            "name": "@02",
+            "line": 20
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "ela fizer uma busca por um \"xablau\" inexistente",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1911647600
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "o resultado deve informar que não foi encontrado nenhum \"xablau\"",
+            "line": 23,
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5124192500
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2107449600
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.32.2/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39800
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Contexto",
+        "name": "",
+        "description": "",
+        "line": 6,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.32.2/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.32.2/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38100
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6865463100
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que Julia esteja no site da Americanas",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4837618100
+            }
+          }
+        ]
+      },
+      {
+        "id": "fluxo-de-compras;buscar-produto-que-não-consta-em-estoque;;3",
+        "keyword": "Esquema do Cenario",
+        "name": "Buscar produto que não consta em estoque",
+        "description": "",
+        "line": 28,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@geral",
+            "line": 2
+          },
+          {
+            "name": "@02",
+            "line": 20
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "ela fizer uma busca por um \"inconstitucionalissimamente\" inexistente",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4277245400
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "o resultado deve informar que não foi encontrado nenhum \"inconstitucionalissimamente\"",
+            "line": 23,
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4196362900
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1115212400
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.32.2/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42600
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Contexto",
+        "name": "",
+        "description": "",
+        "line": 6,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.32.2/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38100
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.32.2/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 91600
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6024805400
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que Julia esteja no site da Americanas",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5286979300
+            }
+          }
+        ]
+      },
+      {
+        "id": "fluxo-de-compras;buscar-produto-que-não-consta-em-estoque;;4",
+        "keyword": "Esquema do Cenario",
+        "name": "Buscar produto que não consta em estoque",
+        "description": "",
+        "line": 29,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@geral",
+            "line": 2
+          },
+          {
+            "name": "@02",
+            "line": 20
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "ela fizer uma busca por um \"tem tuuudo, pode procurar :)\" inexistente",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1993434000
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "o resultado deve informar que não foi encontrado nenhum \"tem tuuudo, pode procurar :)\"",
+            "line": 23,
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6792718300
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 559462200
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.32.2/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42500
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Contexto",
+        "name": "",
+        "description": "",
+        "line": 6,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.32.2/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41800
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.32.2/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38900
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6000429100
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que Julia esteja no site da Americanas",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4869435500
+            }
+          }
+        ]
+      },
+      {
+        "id": "fluxo-de-compras;adicionar-um-produto-no-cesta;;2",
+        "keyword": "Esquema do Cenario",
+        "name": "Adicionar um produto no cesta",
+        "description": "",
+        "line": 41,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@geral",
+            "line": 2
+          },
+          {
+            "name": "@03",
+            "line": 31
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "E ",
+            "name": "ela fizer uma busca por \"kitkat coelho\"",
+            "line": 33,
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4794851900
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "acessar o primeiro produto da lista",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6306764400
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "adicionar o produto na cesta",
+            "line": 35,
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4222258300
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "ela deve ser direcionada para a sua cesta",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 254988400
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "o produto deve ser exibido na cesta",
+            "line": 37,
+            "output": [
+              "Produto na cesta: coelho choc kitkat 29g nestle"
+            ],
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 196667700
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 817981400
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.32.2/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 306600
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Contexto",
+        "name": "",
+        "description": "",
+        "line": 6,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.32.2/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.32.2/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33400
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6019297000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que Julia esteja no site da Americanas",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4989208400
+            }
+          }
+        ]
+      },
+      {
+        "id": "fluxo-de-compras;adicionar-um-produto-no-cesta;;3",
+        "keyword": "Esquema do Cenario",
+        "name": "Adicionar um produto no cesta",
+        "description": "",
+        "line": 42,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@geral",
+            "line": 2
+          },
+          {
+            "name": "@03",
+            "line": 31
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "E ",
+            "name": "ela fizer uma busca por \"arroz camil\"",
+            "line": 33,
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2848435500
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "acessar o primeiro produto da lista",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5382544700
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "adicionar o produto na cesta",
+            "line": 35,
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5700848900
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "ela deve ser direcionada para a sua cesta",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1327079300
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "o produto deve ser exibido na cesta",
+            "line": 37,
+            "output": [
+              "Produto na cesta: arroz tipo 1 camil pacote 5kg"
+            ],
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 922389100
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1674859000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.32.2/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38600
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Contexto",
+        "name": "",
+        "description": "",
+        "line": 6,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.32.2/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33400
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.32.2/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34700
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6142936700
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que Julia esteja no site da Americanas",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5760064800
+            }
+          }
+        ]
+      },
+      {
+        "id": "fluxo-de-compras;adicionar-um-produto-no-cesta;;4",
+        "keyword": "Esquema do Cenario",
+        "name": "Adicionar um produto no cesta",
+        "description": "",
+        "line": 43,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@geral",
+            "line": 2
+          },
+          {
+            "name": "@03",
+            "line": 31
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "E ",
+            "name": "ela fizer uma busca por \"pringles creme e cebola\"",
+            "line": 33,
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4205514500
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "acessar o primeiro produto da lista",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6771880200
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "adicionar o produto na cesta",
+            "line": 35,
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1667424200
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "ela deve ser direcionada para a sua cesta",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1565457300
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "o produto deve ser exibido na cesta",
+            "line": 37,
+            "output": [
+              "Produto na cesta: batata pringles creme e cebola 120g"
+            ],
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 829956400
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1618658400
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.32.2/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24700
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Contexto",
+        "name": "",
+        "description": "",
+        "line": 6,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.32.2/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19500
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.32.2/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29600
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6274797600
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que Julia esteja no site da Americanas",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5833597700
+            }
+          }
+        ]
+      },
+      {
+        "id": "fluxo-de-compras;remover-um-produto-no-cesta;;2",
+        "keyword": "Esquema do Cenario",
+        "name": "Remover um produto no cesta",
+        "description": "",
+        "line": 55,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@geral",
+            "line": 2
+          },
+          {
+            "name": "@04",
+            "line": 45
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "E ",
+            "name": "ela fizer uma busca por \"kitkat coelho\" e adicionar na cesta",
+            "line": 47,
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10472897500
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "ela fizer uma busca por \"chocolate kinder ovo meninas\" e adicionar na cesta",
+            "line": 48,
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15541453800
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "o primeiro produto e o segundo produto devem ser exibidos na cesta",
+            "line": 49,
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1729072600
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "ela remover o primeiro produto",
+            "line": 50,
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 174609300
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "um produto deve permanecer na cesta",
+            "line": 51,
+            "output": [
+              "Produto que restou na cesta:coelho choc kitkat 29g nestle"
+            ],
+            "match": {
+              "location": "features/step_definitions/fluxo_de_compras.rb:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 223956600
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 374253800
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.32.2/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41800
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

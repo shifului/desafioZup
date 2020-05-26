@@ -2,6 +2,6 @@ class AcessarProduto
   include Capybara::DSL
 
   def acessar_produto
-    all("div[class='row product-grid no-gutters main-grid'] > div", wait: 60)[0].click
+    all(EL['product_grid'], wait: 30)[0].click
   end
 end

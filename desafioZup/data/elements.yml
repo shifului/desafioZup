@@ -1,0 +1,11 @@
+basket: .page-title.col-xs-7
+basket_del: .basket-productRemoveAct.link-primary.--desktop
+basket_buy: "#buy-button"
+search_input: "#h_search-input"
+search_btn: "#h_search-btn"
+buy_btn: "#btn-buy"
+product_grid: "div[class='row product-grid no-gutters main-grid'] > div"
+product_error: "div[data-component='productgrid']"
+page_title: .h1.page-title
+product_name: "#product-name-default"
+product_list: .link-default.clearfix

@@ -2,6 +2,6 @@ class AdicionarProduto
   include Capybara::DSL
 
   def adicionar_produto
-    find("#btn-buy", wait: 60).click
+    find(EL['buy_btn'], wait: 30).click
   end
 end
